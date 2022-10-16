@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(20, 19, 19);
+    width: 100%;
+    text-align: center;
+    min-height: 100vh;
+    font-weight: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topo{
+    width: 50%;
+    letter-spacing: 1px;
+    font-size: 18px;
+    overflow-y: scroll;
+    height: 90vh;
+    padding: 15px 2%;
+    box-shadow: 0 0 5px rgb(143, 0, 0);
+    color: white;
+    list-style: none;
+}
+
+.topo::-webkit-scrollbar{
+    width: 14px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.topo::-webkit-scrollbar-thumb{
+    background-color: rgb(143, 0, 0);
+    border: 6px;
+}
+
+.dados-hr{
+    border-top: medium dashed rgb(255, 255, 255);
+    border-bottom: medium dashed rgb(255, 255, 255);
+    height: 1px;
+    overflow: visible;
+    padding: 0;
+    text-align: center;
+}
+
+#hr_3{
+    list-style: none;
+}
+
+#hr_5{
+    list-style: none;
+}

@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(20, 19, 19);
+}
+
+.sobre{
+    width: 100%;
+    padding-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1130px;
+}
+
+#imagem{
+    width: 430px;
+    height: auto;
+}
+
+.mim{
+    width: 550px;
+}
+
+.mim h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.mim h5{
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.mim h5 span{
+    color: rgb(148, 1, 1);
+}
+
+p{
+    color: rgb(206, 206, 206);
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.butt{
+    background-color: rgb(160, 0, 0);
+    color: white;
+    text-transform: none;
+    border: 2px solid;
+    font-weight: bold;
+    padding: 13px 20px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+button:hover{
+    background-color: transparent;
+    border: 2px solid rgb(160, 0, 0);
+}

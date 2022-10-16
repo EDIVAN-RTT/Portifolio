@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(20, 19, 19);
+}
+
+.botao{
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+nav h2{
+    color: aliceblue;
+    font-size: 35px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+span{
+    color: rgb(119, 1, 1);
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 10px 25px;
+    list-style-type: none;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover{
+    color: rgb(85, 0, 0);
+    transform: scale(2,3);
+}
+
+.text{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50);
+}
+
+.imagen{
+    padding-top: 5%;
+    padding-left: 50%;
+}
+
+h4{
+    color: white;
+    font-size: 20px;
+}
+h1{
+    color: white;
+    font-size: 70px;
+}
+h3{
+    color: white;
+}
